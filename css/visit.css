@@ -1,0 +1,71 @@
+.visit_body{
+    width: 100%;
+    padding: 80px 70px;
+    background-color: #60737B;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25%, 1fr));
+    align-items: center;
+}
+.visit_plan_title{
+    font-size: 10px;
+    color: #171817;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+.visit_plan_open_close{
+    font-size: 28px;
+    color: #FCFAF4;
+    font-family: serif;
+}
+.visit_plan_body,
+.open_hours_body,
+.location_body{
+    justify-self: center;
+}
+.open_hours_title,
+.location_title{
+    font-size: 9px;
+    color: #171817;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-bottom: 10px;
+}
+.open_hours_day_hour,
+.location_adres{
+    font-size: 14px;
+    color: #FCFAF4;
+    font-family: "inter";
+}
+.location_adres{
+    width: 60%;
+}
+.visit_info_btn{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    justify-self: center;
+    padding: 25px 20px;
+    background-color: #171817;
+    color: #FCFAF4;
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 1px solid #C9BEAA;
+    cursor: pointer;
+    transition: all .3s ease;
+    overflow: hidden;
+}
+.visit_info_btn:hover{
+    background-color: #FCFAF4; 
+    color: #171817;
+    border: 1px solid #171817;
+}
+.visit_info_btn:hover .btn_text{
+    transform: translateX(15px);
+}
+.arrow,
+.btn_text{
+    transition: all .3s ease;
+}
+.visit_info_btn:hover .arrow{
+    transform: translateX(100px);
+}

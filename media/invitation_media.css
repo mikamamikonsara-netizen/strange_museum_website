@@ -1,0 +1,13 @@
+@media(max-width: 900px){
+    .invitation_body{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .invitation_body_left_side{
+        font-size: 50px;
+    }
+    .invitation_explore_btn{
+        padding: 10px 15px;
+        justify-self: center;
+    }
+}

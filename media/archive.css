@@ -1,0 +1,16 @@
+@media(max-width: 1060px){
+    .archive_body{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr;
+        padding-inline: 20px;
+    }
+    .archive_body_left_side{
+        display: none;
+    }
+    .archive_body_right_side{
+        padding: 80px 10px;
+    }
+    .archive_title{
+        width: 100%;
+    }
+}

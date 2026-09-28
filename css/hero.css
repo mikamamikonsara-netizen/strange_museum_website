@@ -1,0 +1,117 @@
+.hero-container{
+    width: 100%;
+    padding: 80px 70px;
+    background-color: #171817;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+}
+.hero_strange_collection_1{
+    color: #E9E3D7;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+}
+.object_num{
+    color: #C9BEAA;
+}
+.line{
+    width: 40px;
+    height: 1px;
+    background-color: #60737B;
+    display: inline-block;
+    margin-inline: 5px;
+}
+.hero_title{
+    width: 60%;
+    color: #E9E3D7;
+    font-size: 92px;
+    font-family: "inter";
+    line-height: .9;
+    margin-top: 15px;
+}
+.hero_call_to_action{
+    width: 50%;
+    color: #C9BEAA;
+    font-family: "serif";
+    font-size: 21px;
+    margin-top: 15px;
+
+}
+.hero_btn_body{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+}
+.hero_btn{
+    padding: 20px 25px;
+    border: 1px solid #C9BEAA;
+    color: #FCFAF4;
+    font-size: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.hero_btn:hover{
+    border-color: #6E2931;
+    background-color: #6E2931;
+}
+.hero_btn_text{
+    transition: all .3s ease;
+}
+.hero_btn:hover .hero_btn_text{
+    transform: translateX(15px);
+}
+.hero_btn:hover .arrow{
+    transform: translateX(100px);
+}
+.catalogue_info_body{
+    width: 100%;
+    margin-top: 10px;
+}
+.catalogue_info{
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    color: #C9BEAA;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero_container_right_side{
+    background-image: url("../assets/images/hero.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: end;
+    cursor: pointer;
+    overflow: hidden;
+    transition: all .3s ease;
+}
+.hero_container_right_side:hover{
+    background-position: center;
+}
+.object_info_body{
+    width: 200px;
+    height: 70px;
+    background-color: #E9E3D7;
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    margin: 20px;
+}
+.object_name{
+    color: #171817;
+    font-size: 10px;
+    font-weight: bold;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.object_info{
+    color: #777267;
+    font-size: 9px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}

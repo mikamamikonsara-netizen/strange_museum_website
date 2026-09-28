@@ -1,0 +1,36 @@
+.invitation_body{
+    width: 100%;
+    padding: 90px 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+    align-items: center;
+}
+.invitation_body_left_side{
+    font-size: 70px;
+    color: #171817;
+    font-family: "inter";
+}
+.invitation_explore_btn{
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 20px 25px;
+    background-color: #6E2931;
+    justify-self: end;
+    font-size: 11px;
+    color: #FCFAF4;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.explore_btn_text{
+    transition: all .3s ease;
+}
+.invitation_explore_btn:hover> .explore_btn_text{
+    transform: translateX(15px);
+}
+.invitation_explore_btn:hover .arrow{
+    transform: translateX(100px);
+}

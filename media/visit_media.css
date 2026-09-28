@@ -1,0 +1,12 @@
+@media(max-width: 900px){
+    .visit_body{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+    .visit_plan_body, .open_hours_body, .location_body{
+        justify-self: start;
+    }
+    .visit_info_btn{
+        padding: 10px 15px;
+    }
+}

@@ -1,0 +1,83 @@
+.exhibits_body{
+    width: 100%;
+    padding: 80px 70px;
+    background-color: #E9E3D7;
+}
+.exhibits_num_body{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #171817;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.exhibits_num{
+    color: #6E2931;
+    font-size: 10px;
+}
+.exhibits_title_body{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.exhibits_title{
+    width: 50%;
+    font-size: 64px;
+    color: #171817;
+    font-family: "inter";
+}
+.exhibits_call_to_action{
+    width: 18%;
+    font-size: 17px;
+    color: #777267;
+    font-family: serif;
+    align-self: end;
+}
+.exhibits_products_body{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
+    column-gap: 30px;
+    margin-top: 60px;
+    opacity: 0;
+    animation: show_products;
+    animation-timeline: view();
+    /* animation-range: entry 0% cover 40%; */
+}
+@keyframes show_products{
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
+.exhibits_product_card{
+    border-bottom: 2px solid #A9A093;
+    padding-bottom: 10px;
+    box-shadow: 0 15px 30px 5px #000;
+    transition: all .3s ease;
+    cursor: pointer;
+}
+.exhibits_product_card:hover{
+    box-shadow: 0 0 0 0 #000;
+}
+.product_img{
+    width: 100%;
+}
+.exhibits_products_body > :first-child,
+.exhibits_products_body > :last-child{
+    align-self: end;
+}
+.product_shirt_info{
+    display: flex;
+    gap: 20px;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #777267;
+    margin: 10px;
+}
+.product_name{
+    font-size: 30px;
+    color: #171817;
+    margin: 5px;
+}

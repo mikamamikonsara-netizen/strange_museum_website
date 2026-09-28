@@ -1,0 +1,37 @@
+.archive_body{
+    width: 100%;
+    background-color: #45191F;
+    display: grid;
+    grid-template-columns: 1.5fr 2.5fr;
+    grid-template-rows: 520px;
+}
+.archive_body_left_side{
+    background-image: url("../assets/images/archive.png");
+    background-size: cover;
+    cursor: pointer;
+    transition: all .3s ease;
+}
+.archive_body_left_side:hover{
+    background-position: center;
+}
+.archive_body_right_side{
+    padding: 80px 90px;
+}
+.archive_body_right_side_title_top_text{
+    font-size: 10px;
+    color: #C9BEAA;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.archive_title{
+    width: 60%;
+    font-size: 39px;
+    color: #E9E3D7;
+    font-family: serif;
+    margin-top: 10px;
+}
+.archive_title_author{
+    font-size: 10px;
+    color: #60737B;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+}

@@ -1,0 +1,16 @@
+@media(max-width: 1060px){
+    .exhibits_body{
+        padding-inline: 20px;
+    }
+    .exhibits_title_body{
+        flex-direction: column;
+    }
+    .exhibits_call_to_action{
+        width: 50%;
+        align-self: start;
+    }
+    .exhibits_products_body{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+}

@@ -1,0 +1,18 @@
+@media(max-width:1060px){
+    .object_key_body{
+        grid-template-columns: 1fr;
+        grid-template-rows: 1fr ;
+        padding-inline: 20px;
+        gap: 0;
+    }
+    .object_key_right_side{
+        padding-inline: 20px;
+        margin: 0;
+    }
+    .key_title{
+        width: 100%;
+    }
+    .key_btn{
+        padding: 10px 15px;
+    }
+}

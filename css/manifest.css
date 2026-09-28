@@ -1,0 +1,44 @@
+.manifest_body{
+    width: 100%;
+    padding: 120px 70px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(50%, 1fr));
+}
+.manifest_why_keep{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    color: #171817;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.manifest_num{
+    color: #6E2931;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.manifest_title{
+    width: 45%;
+    color: #171817;
+    font-size: 44px;
+    font-family: serif;
+    margin-top: 25px;
+}
+.manifest_right_side_text_body{
+    width: 70%;
+    display: grid;
+    grid-template: 1fr 1fr / 1fr 1fr;
+    row-gap: 25px;
+    justify-self: end;
+}
+.manifest_right_side_title{
+    width: 100%;
+    grid-column: span 2;
+    color: #171817;
+    font-size: 27px;
+}
+.manifest_right_side_text_1,
+.manifest_right_side_text_2{
+    color: #777267;
+    font-size: 15px;
+    /* width: 60%; */
+}
